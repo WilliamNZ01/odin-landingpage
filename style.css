@@ -1,4 +1,47 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+}
+
+.top-third {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    gap: 10px
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-image-placeholder {
+    background-color: gray;
+}
+
+.main-heading {
+    font-weight: 900;
+    color: #f9faf8;
+    font-weight: 48px;
+}
+
+.bottom-top-third {
+    display: flex;
+    justify-content: space-around;
 }
